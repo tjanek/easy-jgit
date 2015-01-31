@@ -5,6 +5,7 @@ repositories {
 }
 
 dependencies {
+    compile 'org.eclipse.jgit:org.eclipse.jgit:3.6.2.201501210735-r'
     compile 'org.slf4j:slf4j-api:1.7.7'
     testCompile "junit:junit:4.11"
 }
