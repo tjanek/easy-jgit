@@ -8,5 +8,7 @@ dependencies {
     compile 'org.eclipse.jgit:org.eclipse.jgit:3.6.2.201501210735-r'
     compile 'com.google.guava:guava:18.0'
     compile 'org.slf4j:slf4j-api:1.7.7'
-    testCompile "junit:junit:4.11"
+    compile 'joda-time:joda-time:2.7'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:1.7.1'
 }
