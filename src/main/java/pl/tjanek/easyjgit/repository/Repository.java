@@ -15,8 +15,6 @@
  */
 package pl.tjanek.easyjgit.repository;
 
-import java.io.File;
-
 /**
  * Repository info
  * @author Tomasz Janek
@@ -25,18 +23,24 @@ import java.io.File;
 public final class Repository {
 
     private final String name;
-    private final File location;
+    private final String location;
+    private final String uri;
 
-    public Repository(String name, File location) {
+    public Repository(String name, String location, String uri) {
         this.name = name;
         this.location = location;
+        this.uri = uri;
     }
 
     public String getName() {
         return name;
     }
 
-    public File getLocation() {
+    public String getLocation() {
         return location;
+    }
+
+    public String getUri() {
+        return uri;
     }
 }

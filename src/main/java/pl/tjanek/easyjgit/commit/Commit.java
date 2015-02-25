@@ -15,9 +15,8 @@
  */
 package pl.tjanek.easyjgit.commit;
 
+import org.joda.time.LocalDateTime;
 import pl.tjanek.easyjgit.user.User;
-
-import java.time.LocalDateTime;
 
 /**
  * Commit info
