@@ -13,10 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package pl.tjanek.easyjgit.commit;
+package pl.tjanek.easyjgit;
 
 import org.joda.time.LocalDateTime;
-import pl.tjanek.easyjgit.user.User;
 
 /**
  * Commit info

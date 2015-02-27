@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package pl.tjanek.easyjgit.user;
+package pl.tjanek.easyjgit;
 
 /**
  * User info
