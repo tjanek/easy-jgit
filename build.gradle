@@ -1,6 +1,11 @@
 apply plugin: 'java'
 apply plugin: 'groovy'
 
+jar {
+    baseName = 'easy-jgit'
+    version =  '0.1.0'
+}
+
 repositories {
     jcenter()
 }
