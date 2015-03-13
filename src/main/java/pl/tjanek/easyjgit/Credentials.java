@@ -22,12 +22,12 @@ import com.google.common.base.Preconditions;
  * @author Tomasz Janek
  * @since 0.1.0
  */
-public final class RepositoryCredentials {
+public final class Credentials {
 
     private final User user;
     private final String password;
 
-    public RepositoryCredentials(User user, String password) {
+    public Credentials(User user, String password) {
         Preconditions.checkNotNull(user, "User can't be null!");
         this.user = user;
         this.password = password;
